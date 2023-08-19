@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Author" content="Anup Tarwade">
+    <meta name="Description" content="Forms">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Forms</title>
+</head>
+<body>
+    <h1>This is forms tutorial</h1>
+    <form action="backend.php">
+
+        <!-- <br> is not recommended. THe space is can be modified by CSS -->
+
+        <div>
+            Name:<input type="text" name="myName">  
+        </div>
+        <br>
+        <div>
+            Role:<input type="text" name="myRole"> 
+        </div>
+        <br>
+        <div>
+            Email: <input type="email" name="myEmail"> 
+        </div>
+        <br>
+        <div>
+            Date:<input type="date" name="myDate" id="">
+        </div>
+        <br>
+        <div>
+            Bounus:<input type="number" name="mybonus">
+        </div>
+        <br>
+        <div>
+            Are you eligible? :<input type="checkbox" name="eligible">
+        </div>
+        <br>
+        <div>
+            Gender: <br> Female: <input type="radio" name="myGender" >  Male<input type="radio" name="myGender"> Other <input type="radio" name="myGender" id="">
+        </div>
+        <br>
+        <div>
+            Write about your self: <br><textarea name="mytext" id="" cols="30" rows="10"></textarea>
+        </div>
+        <br>
+        <div>
+            <input type="submit" value="Submit Now">
+            <input type="reset" value="Reset">
+        </div>
+    </form>
+</body>
+</html>

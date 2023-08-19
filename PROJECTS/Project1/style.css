@@ -1,0 +1,141 @@
+/* css reset */
+body {
+    margin: 0px;
+    padding: 0px;
+    background: url("pexels-leon-ardho-1552242.jpg");
+    background-size:cover;
+    font-family: 'Playfair Display', serif;
+}
+
+.left {
+    position: absolute;
+    left: 38px;
+    top: 12px;
+    display: inline-block;
+    cursor: pointer;
+    /* border: 2px solid red; */
+}
+
+.left img {
+    text-align: center;
+    width: 114px;
+    filter: invert();
+}
+
+.headlogo {
+    color: white;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    font-size: 19px;
+}
+
+.centre {
+    display: block;
+    text-align: center;
+    width: 40%;
+    margin: 55px auto;
+    /* border: 2px solid blue; */
+}
+
+.right {
+    position: absolute;
+    right: 24px;
+    top: 12px;
+    display: inline-block;
+    margin: 40px auto;
+}
+
+.navbar {
+    display: inline-block;
+}
+
+.navbar li {
+    display: inline-block;
+    font-size: 25px;
+}
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: 20px 20px;
+}
+
+.navbar li a:hover,
+.navbar li a.active {
+    text-decoration: underline;
+    color: gray;
+}
+
+.btn {
+    font-family: 'Playfair Display', serif;
+    margin: 0px 9px;
+    color: white;
+    padding: 6px 10px;
+    background-color: black;
+    border-color: gray;
+    border-radius: 10px;
+    font-size: 15px;
+    cursor: pointer;
+
+}
+
+.btn2 {
+    font-family: 'Playfair Display', serif;
+    margin: 10px 9px;
+    color: white;
+    padding: 6px 10px;
+    background-color: black;
+    border-color: gray;
+    border-radius: 22px;
+    font-size: 18px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.btn:hover {
+    background-color: rgb(53, 49, 49);
+}
+
+.btn2:hover {
+    background-color: rgb(53, 49, 49);
+}
+
+.mainheading {
+    position: relative;
+    top: 100px;
+    text-align: center;
+    color: white;
+}
+
+.mainheading h1 {
+    font-size: 60px;
+}
+
+.mainheading p {
+    font-size: 20px;
+    right: 45px;
+}
+
+.container {
+    text-align: center;
+    border: 4px solid white;
+    margin: 216px 400px;
+    padding: 0px;
+    color: white;
+    border-radius: 20px;
+}
+
+.container button {
+    width: 461px;
+}
+
+.form-group input {
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    display: block;
+    width: 421px;
+    padding: 1px;
+    border: 2px solid black;
+    margin: 5px auto;
+    font-size: 17px;
+}

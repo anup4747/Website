@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animationa and Keyframes</title>
+</head>
+
+<style>
+    .container {
+        background-color: yellow;
+    }
+
+    .item {
+        background-color: blue;
+        width: 230px;
+        height: 230px;
+        position: relative;
+        animation-name: anup1;
+        animation-duration: 4s;
+        /* animation-iteration-count: 1; */
+        animation-iteration-count: infinite;
+        animation-fill-mode: alternate;
+        /* animation-timing-function: ease; */
+        /* animation-timing-function: ease-in; */
+        /* animation-timing-function: ease-in-out; */
+        /* animation-timing-function: ease-out; */
+
+        /* to delay the animation */
+        /* animation-delay: 2s; */
+
+    }
+
+    .container2 {
+        background-color: yellow;
+        margin: 2px;
+    }
+
+    .item2 {
+        background-color: red;
+        width: 230px;
+        height: 230px;
+        position: relative;
+        animation-name: anup2;
+        animation-duration: 4s;
+        /* animation-iteration-count: 1; */
+        animation-iteration-count: infinite;
+        animation-fill-mode: alternate;
+        /* animation-timing-function: ease; */
+        /* animation-timing-function: ease-in; */
+        /* animation-timing-function: ease-in-out; */
+        /* animation-timing-function: ease-out; */
+
+        /* to delay the animation */
+        /* animation-delay: 2s; */
+
+    }
+
+    @keyframes anup1 {
+        from {
+            width: 100px;
+        }
+
+        to {
+            width: 1337px;
+        }
+
+    }
+
+    @keyframes anup2 {
+        0% {
+            top: 0px;
+            left: 0px
+        }
+
+        25% {
+            top: 0px;
+            left: 230px;
+        }
+
+        50% {
+            top: 230px;
+            left: 230px;
+        }
+
+        75% {
+            top: 230px;
+            left: 0px;
+        }
+
+        100% {
+            top: 0px;
+            left: 0px;
+        }
+
+
+
+    }
+</style>
+
+<body>
+    <div class="container">
+        <div class="item">
+            Loading bar......
+        </div>
+    </div>
+
+    <div class="container2">
+        <div class="item2">
+            Loading square......
+        </div>
+    </div>
+</body>
+
+</html>
