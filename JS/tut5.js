@@ -30,7 +30,7 @@
 // assignment*=5 // same as assignment = assignment + 5
 // console.log ("a is now = " ,assignment)
 // assignment/=5 // same as assignment = assignment + 5
-// console.log ("a is now = " ,assignment).
+// console.log ("a is now = " ,assignment)
 
 // console.log("comparision Operators")
 

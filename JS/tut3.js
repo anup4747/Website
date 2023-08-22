@@ -1,4 +1,12 @@
 // nn bb ss u
+// null
+// Number
+// bolean
+// BigInt
+// String
+// Symbol
+// undefined
+
 console.log("Primitives and Objects")
 
 let a = null; 
