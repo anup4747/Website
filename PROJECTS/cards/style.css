@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto:wght@100&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f4f4f4;
+}
+
+.profilecard{
+    display:flex ;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 370px;
+    background-color: #fff;
+    width: 100;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+    padding: 27px;
+    border-radius: 24px;
+    position: relative;
+}
+
+.profilecard::before{
+    content: '';
+    position: absolute;
+    background-color: #4070f4;
+    height: 30%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    border-radius: 24px 24px 0 0;
+
+}
+
+.profileimgg {
+    position: relative;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background-color: #4070f4;
+    padding: 3px;
+    margin-bottom: 10px;
+}
+
+.profileimgg .profileimg{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid #fff;
+    cursor: pointer;
+}
+
+.profilecard .text-data{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #333;
+    margin-bottom: 9px;
+}
+
+.text-data .name{
+    font-size: 22px;
+    font-weight: bold;
+}
+.text-data .job{
+    font-size: 14px;
+    text-align: center;
+    /* font-weight:; */
+}
+
+.media-buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.media-buttons .link{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    height: 34px;
+    width: 34px;
+    background-color: #4070f4;
+    margin: 0 8px;
+    border-radius: 50%;
+    font-size: 18px;
+    margin-bottom: 23px;
+}
+
+.buttons{
+    display: flex;
+    align-items: center;
+}
+
+.buttons .button{
+    color: #fff;
+    border: none;
+    padding: 8px 12px;
+    margin:0 10px;
+    background-color: #4070f4;
+    border-radius: 24px;
+    font-size: 14px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    width: 110px;
+}
+
+.button:hover{
+    cursor: pointer;
+    background-color: #0e4bf1;
+}
+
+.analytics{
+    display: flex;
+    align-items: center;
+    margin-top: 24px;
+}
+
+.data {
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    color: #333;
+    border-right: 2px solid #e7e7e7;
+
+}
+
+.data i{
+    font-size: 18px;
+    margin-right: 6px;
+}
+.data:last-child{
+    border:none
+}
