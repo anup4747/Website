@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,400&family=Roboto:ital,wght@0,100;1,100&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    transition: 0.3s;
+}
+
+html,body{
+    /* text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue; */
+    display: grid;
+    height: 100%;
+    place-items: center;
+    background-color: #ff1aff ;
+}
+
+.wrapper{
+    width: 380px;
+    background-color: #f0ecec;
+    /* border: 2px solid black; */
+    border-radius: 22px ;
+    box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.2);
+    padding-bottom: 20px;
+}
+
+.wrapper{
+    /* background-color: #ff99ff; */
+}
+
+.wrapper .title{
+    padding-left: 20px;
+    color: #fff;
+    font-size: 25px;
+    font-weight: 600;
+    border-radius: 22px 22px 0 0;
+    line-height: 80px;
+    background-color:#b300b3 ;
+}
+
+.wrapper form{
+    padding:  30px 20px 25px 20px;
+}
+
+.wrapper form .row{
+    height: 45px;
+    /* background-color: #ff0000; */
+    margin-bottom: 15px;
+    position: relative;
+}
+
+.wrapper form .row input{
+    height: 100%;
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding-left: 55px;
+    transition: 0.3s;
+}
+
+
+.wrapper form .row i{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 23px;
+    color: #fff;
+    position: absolute;
+    width: 47px;
+    height: 100%;
+    background-color:#b300b3 ;
+    border-radius:  10px 0 0 10px;
+
+}
+
+.wrapper .row a{
+    font-size: 12px;
+    font-weight: 600;
+    color: #b300b3;
+    text-decoration: none;
+}
+
+.pass{
+    margin-top: 2px;
+}
+.wrapper .row a:hover{
+    text-decoration: underline;
+    color: blue;
+}
+
+.wrapper form .button input{
+   padding-left: 0;
+   margin-top: 18px;  
+}
+
+.button input{
+    background-color: #b300b3;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+    transition: 0.3s;
+}
+.button input:hover{
+    background-color: #990099;
+    transform: scale(1.01);
+    
+}
+.button a, p{
+    text-align: center;
+    font-size: 12px;
+    margin-top: 9px;
+    font-weight: 400;
+    
+}
+
+.button p{
+    font-weight:600;
+    color: #b300b3;
+}
+
+.button a{
+    color: blue;
+    text-decoration: none;
+}
+.button a:hover{
+    color: blue;
+    text-decoration: underline;
+}
+
+
+
