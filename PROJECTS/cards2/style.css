@@ -113,6 +113,7 @@ html,body{
     line-height: 38px;
     margin: 0 5px;
     border-radius: 50%;
+    transition: 0.1s;
 }
 
 .back-face ul a:hover{
